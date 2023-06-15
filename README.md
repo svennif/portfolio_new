@@ -1,24 +1,11 @@
-# portfolio_new
+# Portfolio
 
-## Project setup
-```
-yarn install
-```
+This is a portfolio for Sven Ingar Frantzen
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Tech stack
 
-### Compiles and minifies for production
-```
-yarn build
-```
+-   VueJs 3
+-   Tailwind
+## Hosted with
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-   Vercel
