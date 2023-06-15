@@ -1,23 +1,27 @@
 <template>
-  <div class="bg-midnight text-white-200 flex flex-col justify-center m-0 p-0">
-  <Home />
-  <!-- <Projects /> -->
-  </div>
+        <Home />
+        <Projects />
+        <About />
+        <Contact />
 </template>
 
 <script>
-import Home from '@/components/HomeComponent.vue';
-// import Projects from './components/ProjectComponent.vue';
+import Home from "@/components/HomeComponent.vue";
+import Projects from "./components/ProjectComponent.vue";
+import About from "./components/AboutComponent.vue";
+import Contact from "./components/ContactComponent.vue";
 
 export default {
-  name: 'App',
-  components: {
+    name: "App",
+    components: {
     Home,
-    // Projects
-}
-}
+    Projects,
+    About,
+    Contact
+},
+};
 </script>
 
 <style>
-  @import '@/assets/styles/style.css';
+@import "@/assets/styles/style.css";
 </style>

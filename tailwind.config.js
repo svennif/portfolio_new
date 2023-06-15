@@ -11,7 +11,7 @@ export default {
     colors: {
       ...colors,
       'midnight': '#1e293b',
-      'highlight': '#71a1ef',
+      'highlight': '#91B5EF',
       'accent': '#2a3a52',
       'accent-2': '#3c5376'
     },

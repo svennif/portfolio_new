@@ -1,13 +1,13 @@
 <template>
-    <div class="home max-w-7xl mx-auto h-screen">
-        <div class="mt-40">
-            <img class="home__image mx-auto w-52" :src="portrait_image" alt="Portrait of Sven Ingar" />
-            <div class="home-wrapper text-center">
-                <h1 class="home__heading text-neutral-200 font-main text-5xl font-bold mt-4">Hello, I'm</h1>
-                <h2 class="home__subheading text-highlight font-hightlight text-8xl mt-2 font-bold">Sven Ingar Frantzen</h2>
-                <p class="home__description text-neutral-200 font-main text-4xl mt-8">
+    <div class="max-w-7xl mx-auto h-screen snap-start snap-always">
+        <div class="mt-12 md:mt-32">
+            <img class="mx-auto w-52" :src="portrait_image" alt="Portrait of Sven Ingar" />
+            <div class="text-center">
+                <h1 class="text-neutral-200 font-main text-3xl md:text-5xl font-bold mt-4">Hello, I'm</h1>
+                <h2 class="text-highlight font-hightlight text-5xl/[1.3] md:text-8xl mt-2 font-bold">Sven Ingar Frantzen</h2>
+                <p class="text-neutral-200 font-main  text-3xl/[1.4] md:text-4xl mt-8">
                     Frontend developer
-                    <span class="home__description-highlight text-highlight font-hightlight">and</span>
+                    <span class="text-highlight font-hightlight">and</span>
                     UX/UI Designer.
                 </p>
             </div>

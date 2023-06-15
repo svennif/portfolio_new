@@ -2,8 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+#app {
+    /* bg-midnight text-white-200 flex flex-col justify-center m-0 p-0 */
+    display: flex;
+    flex-direction: column;
+}
+
 @layer base {
     html {
         font-family: Proxima Nova, system-ui, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1e293b;
+        overflow-y: scroll;
+        scroll-snap-type: y var(--tw-scroll-snap-strictness);
+        --tw-scroll-snap-strictness: proximity;
+    }
+    @media screen and (min-width: 426px) {
+        html {
+            scroll-snap-type: y var(--tw-scroll-snap-strictness);
+            --tw-scroll-snap-strictness: mandatory;
+        }
     }
 }
