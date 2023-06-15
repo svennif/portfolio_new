@@ -4,7 +4,7 @@
         <section id="projects" class="max-w-7xl mx-auto p-6 lg:p-8 mt-2">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-3 lg:gap-3">
                 <a :href="project.url" target="_blank" class="scale-100 p-5 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/20 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500 hover:shadow-xl hover:shadow-offset-x-2 hover:shadow-offset-y-2" v-for="project in projects" :key="project.id">
-                    <div class="flex-col text-center ">
+                    <div class="flex-col text-center">
                         <img class="block m-auto h-[200px] w-full object-cover" :src="project.image" v-bind:alt="project.name" />
                         <h2 class="text-xl font-semibold text-neutral-200 mt-2">{{ project.title }}</h2>
                         <p class="pb-4 text-sm text-neutral-200 leading-relaxed px-2 mt-2 h-14">{{ project.description }}</p>
