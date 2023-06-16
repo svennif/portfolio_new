@@ -14,14 +14,5 @@
         margin: 0;
         padding: 0;
         background-color: #1e293b;
-        overflow-y: scroll;
-        scroll-snap-type: y var(--tw-scroll-snap-strictness);
-        --tw-scroll-snap-strictness: proximity;
-    }
-    @media screen and (min-width: 426px) {
-        html {
-            scroll-snap-type: y var(--tw-scroll-snap-strictness);
-            --tw-scroll-snap-strictness: mandatory;
-        }
     }
 }

@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-7xl mx-auto h-screen snap-start snap-always">
-        <div class="mt-12 md:mt-32">
+    <div class="mx-auto h-screen">
+        <div class="mt-12 md:mt-36">
             <img class="mx-auto w-52" :src="portrait_image" alt="Portrait of Sven Ingar" />
             <div class="text-center">
                 <h1 class="text-neutral-200 font-main text-3xl md:text-5xl font-bold mt-4">Hello, I'm</h1>
