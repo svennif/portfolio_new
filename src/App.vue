@@ -1,7 +1,8 @@
 <template>
+        <Navbar />
         <Home />
-        <Projects />
         <About />
+        <Projects />
         <Contact />
 </template>
 
@@ -10,6 +11,7 @@ import Home from "@/components/HomeComponent.vue";
 import Projects from "./components/ProjectComponent.vue";
 import About from "./components/AboutComponent.vue";
 import Contact from "./components/ContactComponent.vue";
+import Navbar from "./components/common/NavbarComponent.vue";
 
 export default {
     name: "App",
@@ -17,7 +19,8 @@ export default {
     Home,
     Projects,
     About,
-    Contact
+    Contact,
+    Navbar
 },
 };
 </script>
