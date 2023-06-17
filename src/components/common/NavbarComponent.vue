@@ -45,8 +45,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@mixin hover-in {
+<style>
+.menu-link {
     background-image: linear-gradient(#91b5ef, #3c5376);
     background-size: 0% 0.1em;
     background-position-y: 100%;
@@ -55,16 +55,9 @@ export default {
     transition: background-size 0.3s ease-in-out;
 }
 
-@mixin hover-out {
+.menu-link:hover {
     background-size: 100% 0.1em;
     background-position-x: 0%;
-}
-
-.menu-link {
-    @include hover-in;
-    &:hover {
-        @include hover-out;
-    }
 }
 
 .header {
@@ -75,4 +68,5 @@ export default {
 .header.is-hidden {
     transform: translateY(-100%);
 }
+
 </style>

@@ -19,4 +19,4 @@
 import portrait_image from "@/assets/images/portrait.png";
 </script>
 
-<style lang="scss"></style>
+<style ></style>
