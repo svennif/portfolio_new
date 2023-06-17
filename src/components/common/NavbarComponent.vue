@@ -1,14 +1,4 @@
 <template>
-    <!-- <nav id="navbar" :class="{ 'is-hidden': !showHeader }" class="w-full z-50 shadow-sm transform">
-        <div class="fixed top-0 flex justify-end items-center right-0 h-4 sm:h-16">
-            <ul class="flex justify-end">
-                <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Home</a></li>
-                <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">About</a></li>
-                <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Projects</a></li>
-                <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav> -->
     <header class="header bg-midnight bg-opacity-70 z-50 fixed top-0 inset-x-0 p-4" :class="{ 'is-hidden': !showHeader }">
         <nav id="navbar" :class="{ 'is-hidden': !showHeader }" class="w-full z-50 shadow-sm transform">
             <div class="flex justify-center items-center right-0">
