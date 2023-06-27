@@ -3,10 +3,10 @@
         <nav id="navbar" :class="{ 'is-hidden': !showHeader }" class="w-full z-50 shadow-sm transform">
             <div class="flex justify-center items-center right-0">
                 <ul class="flex">
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Home</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">About</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Projects</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#">Contact</a></li>
+                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#home">Home</a></li>
+                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#about">About</a></li>
+                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#projects">Projects</a></li>
+                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -20,6 +20,7 @@ export default {
             showHeader: true,
             lastScrollPosition: 0,
             scrollOffset: 40,
+            scrollTimeout: null,
         };
     },
     mounted() {
@@ -32,6 +33,8 @@ export default {
     methods: {
         // Toggle if navigation is shown or hidden
         onScroll() {
+            clearTimeout(this.scrollTimeout); // Clear any existing timeout
+
             if (window.scrollY < 0) {
                 return;
             }
@@ -40,6 +43,11 @@ export default {
             }
             this.showHeader = window.scrollY < this.lastScrollPosition;
             this.lastScrollPosition = window.scrollY;
+
+            // If scrolling stops for more than 300ms, show the header
+            this.scrollTimeout = setTimeout(() => {
+                this.showHeader = true;
+            }, 300);
         },
     },
 };

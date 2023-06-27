@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto h-screen">
+    <div id="about" class="mx-auto h-screen">
             <h1 class="text-4xl text-highlight text-center mt-10 md:mt-24">About</h1>
     </div>
 </template>
