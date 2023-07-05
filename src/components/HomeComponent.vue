@@ -8,8 +8,9 @@
                 <p class="text-neutral-200 font-main  text-3xl/[1.4] md:text-4xl mt-8 p-2">
                     Frontend developer
                     <span class="text-highlight font-hightlight">and</span>
-                    UX/UI Designer.
+                    UX/UI Designer,
                 </p>
+                <p class="text-neutral-200 font-main  text-3xl/[1.4] md:text-3xl p-2">currently located in Copenhagen, Denmark</p>
             </div>
         </div>
     </div>
