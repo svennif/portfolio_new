@@ -29,7 +29,7 @@
                 <p class="leading-relaxed">I am an experienced Frontend Developer, transitioning from a decade in retail management at Coop Obs Bryne to IT consultancy and currently frontend development. During my time as an IT Consultant at Front Software, I mastered skills including project management and development in React and worked extensively on digital control systems for Pizzabakeren, one of Norway's leading pizza chains. Currently, I'm a Junior Integration Specialist at Clerk.io, creating recommendation sliders for various webshops.</p>
                 <p class="leading-relaxed mt-2">
                     <span class="text-highlight">Skills accuired: </span>
-                    <i>HTML, CSS, JavaScript, PHP, Smarty, Liquid, Wordpress, Shopify, Prestashop, Magento 1 & 2 and DanDomain</i>
+                    <i>HTML, CSS, JavaScript, PHP, Smarty, Liquid, Wordpress, Shopify, Prestashop, Magento 1 & 2, DanDomain</i>
                 </p>
                 <p class="leading-relaxed mt-5">In terms of academics, I earned a Bachelor's degree in New Media from the University of Bergen, followed by a Higher Professional Degree in Frontend Development from Noroff. These qualifications equipped me with a comprehensive understanding of application development, from ideation to publication.</p>
                 <p class="leading-relaxed mt-2">
