@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import portrait_image from "@/assets/images/portrait.png";
+import portrait_image from "@/assets/images/portrait.webp";
 </script>
 
 <style ></style>

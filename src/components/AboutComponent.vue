@@ -46,7 +46,7 @@
 export default {
     setup() {
         return {
-            portrait_image: require("@/assets/images/portrait.png"),
+            portrait_image: require("@/assets/images/portrait.webp"),
         };
     },
 };
