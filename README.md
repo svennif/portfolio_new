@@ -6,6 +6,7 @@ This is a portfolio for Sven Ingar Frantzen
 
 -   VueJs 3
 -   Tailwind
+-   Docker
 ## Hosted with
 
 -   Vercel
