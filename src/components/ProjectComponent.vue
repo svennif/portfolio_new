@@ -31,7 +31,7 @@ export default {
                     url: "https://svennif.github.io/cs-smokes/",
                     image: require("@/assets/images/cs-smokes.webp"),
                     tags: "HTML, CSS, Javascript",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    description: "Website to teach smokes in CS:GO.",
                 },
                 {
                     id: 2,
@@ -39,7 +39,7 @@ export default {
                     url: "https://svennif.github.io/holidaze/",
                     image: require("@/assets/images/holidaze.webp"),
                     tags: "React, Sass",
-                    description: "Pellentesque ac metus semper, mollis est quis, rhoncus erat.",
+                    description: "School project for showing hotels.",
                 },
                 {
                     id: 3,
@@ -47,7 +47,7 @@ export default {
                     url: "https://svennif.github.io/nasa/",
                     tags: "HTML, CSS, JS",
                     image: require("@/assets/images/nasa-site.webp"),
-                    description: "Integer a sem ullamcorper, bibendum ipsum sit amet, blandit nisi.",
+                    description: "School project for displaying NASA technologies.",
                 },
             ],
         };
