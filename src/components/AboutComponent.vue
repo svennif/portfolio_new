@@ -1,10 +1,10 @@
 <template>
-    <div id="about" class="mx-auto h-screen">
+    <div id="about" class="mx-auto h-full md:h-screen">
         <h1 class="text-4xl text-highlight text-center mt-10 md:mt-24">Who am I?</h1>
-        <div class="columns-2 flex justify-center p-20">
-            <div class="w-1/2">
+        <div class="md:columns-2 flex-col md:flex-row flex justify-center mt-10">
+            <div class="w-full md:w-1/2">
                 <img class="px-10 mx-auto" :src="portrait_image" alt="Portrait of Sven Ingar" />
-                <div class="px-10 mx-auto w-1/2">
+                <div class="px-10 mx-auto w-full md:w-1/2">
                     <h2 class="text-2xl text-highlight my-4 font-bold">Education</h2>
                     <ul class="leading-relaxed">
                         <li class="text-xl flex flex-col">
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-1/2 mx-auto text-neutral-200">
+            <div class="w-full md:w-1/2 mx-auto text-neutral-200 px-10">
                 <h2 class="text-2xl text-highlight mb-4 mt-6 font-bold">Summary</h2>
                 <p class="leading-relaxed">I am an experienced Frontend Developer, transitioning from a decade in retail management at Coop Obs Bryne to IT consultancy and currently frontend development. During my time as an IT Consultant at Front Software, I mastered skills including project management and development in React and worked extensively on digital control systems for Pizzabakeren, one of Norway's leading pizza chains. Currently, I'm a Junior Integration Specialist at Clerk.io, creating recommendation sliders for various webshops.</p>
                 <p class="leading-relaxed mt-2">

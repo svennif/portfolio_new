@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /app
 
 # Copy package.json and yarn.lock before other files
-# Utilise Docker cache to save re-installing dependencies if unchanged
+# Utilize Docker cache to save re-installing dependencies if unchanged
 COPY package.json yarn.lock ./
 
 # Install dependencies
@@ -14,11 +14,14 @@ RUN yarn install
 # Copy all files
 COPY . .
 
+# Install nodemon globally
+RUN yarn global add nodemon
+
 # Build app
 RUN yarn build
 
 # Expose the port
 EXPOSE 8080
 
-# Command to run the app
-CMD [ "yarn", "serve" ]
+# Command to run the app with nodemon for file watching and hot-reloading
+CMD ["yarn", "run", "dev"]
