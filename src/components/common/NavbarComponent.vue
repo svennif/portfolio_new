@@ -1,12 +1,20 @@
 <template>
-    <header class="header bg-midnight bg-opacity-70 z-50 fixed top-0 mx-auto inset-x-0 p-4" :class="{ 'is-hidden': !showHeader }">
+    <header class="header bg-midnight bg-opacity-80 z-50 fixed top-0 mx-auto inset-x-0 p-4" :class="{ 'is-hidden': !showHeader }">
         <nav id="navbar" :class="{ 'is-hidden': !showHeader }" class="w-full z-50 shadow-sm transform">
             <div class="flex justify-center items-center right-0">
                 <ul class="flex">
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#home">Home</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#about">About</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#projects">Projects</a></li>
-                    <li class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight"><a href="#contact">Contact</a></li>
+                    <li>
+                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/">Home</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/about">About</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Projects</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -14,43 +22,7 @@
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            showHeader: true,
-            lastScrollPosition: 0,
-            scrollOffset: 40,
-            scrollTimeout: null,
-        };
-    },
-    mounted() {
-        this.lastScrollPosition = window.scrollY;
-        window.addEventListener("scroll", this.onScroll);
-    },
-    beforeUnmount() {
-        window.removeEventListener("scroll", this.onScroll);
-    },
-    methods: {
-        // Toggle if navigation is shown or hidden
-        onScroll() {
-            clearTimeout(this.scrollTimeout); // Clear any existing timeout
-
-            if (window.scrollY < 0) {
-                return;
-            }
-            if (Math.abs(window.scrollY - this.lastScrollPosition) < this.scrollOffset) {
-                return;
-            }
-            this.showHeader = window.scrollY < this.lastScrollPosition;
-            this.lastScrollPosition = window.scrollY;
-
-            // If scrolling stops for more than 300ms, show the header
-            this.scrollTimeout = setTimeout(() => {
-                this.showHeader = true;
-            }, 300);
-        },
-    },
-};
+export default {};
 </script>
 
 <style>
@@ -67,14 +39,4 @@ export default {
     background-size: 100% 0.1em;
     background-position-x: 0%;
 }
-
-.header {
-    transform: translateY(0);
-    transition: transform 300ms linear;
-}
-
-.header.is-hidden {
-    transform: translateY(-100%);
-}
-
 </style>
