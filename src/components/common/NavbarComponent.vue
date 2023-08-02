@@ -1,6 +1,6 @@
 <template>
-    <header class="header bg-midnight bg-opacity-80 z-50 fixed top-0 mx-auto inset-x-0 p-4" :class="{ 'is-hidden': !showHeader }">
-        <nav id="navbar" :class="{ 'is-hidden': !showHeader }" class="w-full z-50 mt-3 shadow-sm transform">
+    <header class="header bg-midnight bg-opacity-80 z-50 fixed top-0 mx-auto inset-x-0 p-4">
+        <nav id="navbar" class="w-full z-50 mt-3 shadow-sm transform">
             <div class="flex justify-center items-center right-0">
                 <ul class="flex">
                     <li>
