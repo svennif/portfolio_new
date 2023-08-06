@@ -13,7 +13,7 @@
                         <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Projects</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink>
+                        <!-- <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink> -->
                     </li>
                 </ul>
             </div>

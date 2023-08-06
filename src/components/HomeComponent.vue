@@ -1,5 +1,5 @@
 <template>
-    <div id="home" class="mx-auto h-screen w-100">
+    <div id="home" class="mx-auto h-100 md:h-screen w-100">
         <p class="text-center mt-20 text-red-500 text-xl"><i>This website is still under construction so changes will be coming in near future!</i></p>
         <div class="mt-24 md:mt-20">
             <img class="mx-auto w-52" :src="portrait_image" alt="Portrait of Sven Ingar" />
