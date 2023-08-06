@@ -14,8 +14,11 @@
                 <p class="text-neutral-200 font-main text-3xl/[1.4] md:text-3xl p-2">currently located in Copenhagen, Denmark</p>
             </div>
             <div class="mx-auto w-full flex mt-12 gap-8 justify-center">
-                <a href="https://github.com/svennif" target="_blank"><font-awesome-icon class="mx-auto text-neutral-200 hover:text-highlight" icon="fa-brands fa-square-github" size="4x" alt="GitHub" /></a>
-                <a href="https://www.linkedin.com/in/sven-ingar-frantzen-45bb26161/" target="_blank"><font-awesome-icon class="mx-auto text-neutral-200 hover:text-highlight" icon="fa-brands fa-linkedin" size="4x" alt="Linkedin" /></a>
+                <a href="https://github.com/svennif" target="_blank"><font-awesome-icon class="mx-auto text-neutral-200 hover:text-highlight" icon="fa-brands fa-square-github" size="4x" title="GitHub link icon" />
+                    <span class="sr-only">Go to my Github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sven-ingar-frantzen-45bb26161/" target="_blank"><font-awesome-icon class="mx-auto text-neutral-200 hover:text-highlight" icon="fa-brands fa-linkedin" size="4x" alt="Linkedin link icon" />
+                    <span class="sr-only">Go to my Linkedin</span></a>
             </div>
         </div>
     </div>
