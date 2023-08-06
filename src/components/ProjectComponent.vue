@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto h-full">
+    <div class="mx-auto h-auto">
         <h1 id="project" class="text-4xl text-highlight text-center mt-24 md:mt-24">Selected work</h1>
         <section id="projects" class="mx-auto p-6 lg:p-8 mt-2">
             <div class="grid grid-cols-1 md:grid-cols-1">
