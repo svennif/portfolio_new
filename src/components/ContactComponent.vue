@@ -1,14 +1,23 @@
 <template>
-    <div id="contact" class="mx-auto h-screen">
-        <!-- <h1 class="text-4xl text-highlight text-center mt-10 md:mt-28">Contact</h1> -->
-        <div class="flex flex-col md:flex-row justify-center mt-10 md:mt-28">
+    <div id="contact" class="mx-auto">
+        <div class="flex flex-col md:flex-row justify-center">
             <div class="flex-1 mx-auto w-full">
-                <!-- <h2 class="text-2xl text-highlight text-center mt-10">Check out my socials!</h2>
-                <div class="mx-auto w-full flex mt-5 gap-4 justify-center">
-                    <a href="https://github.com/svennif" target="_blank"><font-awesome-icon class="mx-auto" icon="fa-brands fa-square-github" :style="{ color: 'white' }" size="4x" alt="GitHub"/></a>
-                    <a href="https://www.instagram.com/svenni1245/" target="_blank"><font-awesome-icon class="mx-auto" icon="fa-brands fa-square-instagram" :style="{ color: 'white' }" size="4x" alt="Instagram"/></a> 
-                    <a href="https://www.linkedin.com/in/sven-ingar-frantzen-45bb26161/" target="_blank"><font-awesome-icon class="mx-auto" icon="fa-brands fa-linkedin" :style="{ color: 'white' }" size="4x" alt="Linkedin"/></a>
-                </div> -->
+                <h1 class="text-2xl text-highlight text-center m-4 uppercase mt-28"><i>Don't be shy! Hit me up!</i></h1>
+                <div class="flex flex-row gap-8 text-center items-center justify-evenly" >
+                    <div>
+                        <p class="text-neutral-200 text-2xl font-bold my-10">Mail</p>
+                        <a class="text-neutral-200 hover:text-highlight text-xl items-center flex gap-2 transition-all duration-[0.3s]" href="mailto:sven.ingar@gmail.com">
+                            Send me an email!
+                            <font-awesome-icon size="xl" icon="fa-solid fa-envelope-open-text" />
+                        </a>
+                    </div>
+                    <div>
+                        <p class="text-neutral-200 text-2xl font-bold my-10">Linkedin</p>
+                        <a class="text-neutral-200 hover:text-highlight text-xl items-center flex gap-2 transition-all duration-[0.3s]" href="https://www.linkedin.com/in/sven-ingar-frantzen-45bb26161/" target="_blank">Or message on LinkedIn!
+                            <font-awesome-icon icon="fa-brands fa-linkedin" size="xl" alt="Linkedin link icon" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
