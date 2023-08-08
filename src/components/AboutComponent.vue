@@ -1,7 +1,7 @@
 <template>
     <section class="mx-auto h-auto max-w-[107rem] px-4 md:px-16 flex flex-col mb-20">
         <div class="container">
-            <div id="about" class="mx-auto h-auto md:h-screen">
+            <div id="about" class="mx-auto h-auto">
                 <h1 class="text-2xl text-neutral-200 text-center m-4 uppercase mt-28"><i>Who is Sven Ingar?</i></h1>
                 <div class="flex flex-col md:flex-row justify-center mt-5">
                     <div class="md:object-right md:ml-auto md:mr-6 md:mt-6 mx-5">
