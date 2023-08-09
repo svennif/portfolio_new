@@ -4,7 +4,7 @@
             <div class="flex flex-col w-full">
                 <h1 id="project" class="text-2xl text-neutral-200 text-center m-4 uppercase mt-28"><i>Selected work</i></h1>
                 <div class="grid grid-cols-1 h-auto max-w-7xl w-full gap-5 md:gap-20 mt-5">
-                    <div class="flex flex-col md:flex-row gap-12 md:gap-32 w-full h-full p-4 md:p-8 shadow-custom-1 rounded-3xl bg-midnight" v-for="project in projects" :key="project.id">
+                    <div class="flex flex-col md:flex-row gap-7 md:gap-32 w-full h-full p-4 md:p-8 shadow-custom-1 rounded-3xl bg-midnight" v-for="project in projects" :key="project.id">
                         <div class="w-full md:w-[53rem] overflow-hidden h-auto shadow-custom-2 rounded-xl md:rounded-3xl">
                             <a :href="project.url">
                                 <img class="h-full w-full" :src="project.image" :alt="project.name" />
