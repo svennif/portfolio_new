@@ -1,7 +1,6 @@
 <template>
-    <div id="home" class="mx-auto h-100 md:h-screen w-100">
-        <p class="text-center mt-28 text-red-500 text-xl"><i>This website is still under construction so changes will be coming in near future!</i></p>
-        <div class="mt-24 md:mt-20">
+    <div id="home" class="mx-auto w-100">
+        <div class="mt-24 md:mt-24">
             <img class="mx-auto w-52" :src="portrait_image" alt="Portrait of Sven Ingar" />
             <div class="text-center mx-3">
                 <h1 class="text-neutral-200 font-main text-3xl md:text-4xl font-bold mt-4">Hello, I'm</h1>
