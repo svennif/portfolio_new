@@ -1,21 +1,11 @@
 <template>
-    <header class="header bg-midnight bg-opacity-80 z-50 fixed top-0 mx-auto inset-x-0 p-4">
-        <nav id="navbar" class="w-full z-50 mt-3 shadow-sm transform">
-            <div class="flex justify-center items-center right-0">
-                <ul class="flex">
-                    <li>
-                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/">Home</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/about">About</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Projects</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="menu-link mr-5 text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink>
-                    </li>
-                </ul>
+    <header class="header bg-midnight bg-opacity-80 z-50 fixed top-0 mx-auto inset-x-0 p-4 flex flex-row justify-center">
+        <nav id="navbar" class="w-full z-50 shadow-sm transform">
+            <div class="flex flex-row justify-center gap-4">
+                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/">Home</RouterLink>
+                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/about">About</RouterLink>
+                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Projects</RouterLink>
+                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink>
             </div>
         </nav>
     </header>
