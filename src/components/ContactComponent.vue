@@ -6,7 +6,7 @@
                 <div class="flex flex-col md:flex-row gap-8 text-center items-center justify-evenly" >
                     <div>
                         <p class="text-highlight text-2xl font-bold my-10">Mail</p>
-                        <a class="text-neutral-200 hover:text-highlight text-xl items-center flex gap-2 transition-all duration-[0.3s]" href="mailto:sven.ingar@gmail.com">
+                        <a class="text-neutral-200 hover:text-highlight text-xl items-center flex gap-2 transition-all duration-[0.3s]" href="mailto:info@svenni.io	">
                             Send me an email!
                             <font-awesome-icon size="xl" icon="fa-solid fa-envelope-open-text" />
                         </a>
