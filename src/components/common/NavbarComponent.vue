@@ -4,8 +4,7 @@
             <div class="flex flex-row justify-center gap-4">
                 <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/">Home</RouterLink>
                 <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/about">About</RouterLink>
-                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Projects</RouterLink>
-                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/contact">Contact</RouterLink>
+                <RouterLink class="menu-link text-lg/8 text-neutral-200 hover:text-highlight" to="/projects">Showcase</RouterLink>
             </div>
         </nav>
     </header>

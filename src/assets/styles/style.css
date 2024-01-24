@@ -2,21 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
+
+@keyframes fade {
+  0% { opacity: 0}
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-#app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 30ch; }
+}
+    
+@keyframes blink {
+  50% { border-color: transparent;}
 }
 
-@layer base {
-    html {
-        font-family: Proxima Nova, system-ui, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #2A3952;
-    }
+/* dynamic resizing */
+@media (min-width:600px) {
+  body {
+    font-size: 1.25rem;
+  }
 }

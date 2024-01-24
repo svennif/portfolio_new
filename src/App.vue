@@ -1,26 +1,16 @@
 <script setup>
 import { SpeedInsights } from "@vercel/speed-insights/vue"
+import HomeComponent from "./components/HomeComponent_v2.vue";
 </script>
 
 <template>
-    <Navbar />
-    <router-view />
-    <Footer />
-    <SpeedInsights />
+	<div class="macchiato bg-base h-screen p-6">
+		<HomeComponent />
+	</div>
+	<SpeedInsights />
 </template>
 
-<script>
-import Navbar from "@/components/common/NavbarComponent.vue";
-import Footer from "@/components/common/FooterComponent.vue";
-
-export default {
-    name: "App",
-    components: {
-        Navbar,
-        Footer,
-    },
-};
-</script>
+<script></script>
 
 <style>
 @import "@/assets/styles/style.css";
